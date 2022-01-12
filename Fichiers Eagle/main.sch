@@ -8359,6 +8359,9 @@ DIN A4, landscape with location and doc. field</description>
 <sheet>
 <plain>
 <wire x1="88.9" y1="63.5" x2="93.98" y2="63.5" width="0.1524" layer="94"/>
+<text x="139.7" y="-25.4" size="1.778" layer="91">Mathieu Cariou
+UBO Open Factory
+12/01/2021</text>
 </plain>
 <instances>
 <instance part="U2" gate="A" x="17.78" y="35.56" smashed="yes">
@@ -8895,6 +8898,10 @@ DIN A4, landscape with location and doc. field</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
